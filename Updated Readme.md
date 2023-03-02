@@ -14,3 +14,9 @@ HashTables are widely used in computer science and are used in a variety of appl
 
 Chaining
 Chaining is another technique for resolving collisions in hash tables. In chaining, instead of storing items directly in the hash table, we use a linked list to store all the items that hash to the same index. When a collision occurs, the algorithm simply adds the new item to the end of the linked list at the appropriate index.
+
+Memoization + recursion:
+
+ Memoisation: is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+ 
+ Recursion: in data structure is when a function calls itself indirectly or directly, and the function calling itself is known as a recursive function. It's generally used when the answer to a larger issue could be depicted in terms of smaller problems.
