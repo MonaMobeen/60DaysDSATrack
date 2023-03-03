@@ -10,12 +10,16 @@ In this implementation, the Hashtable class has an array of linked lists (table)
 
 Linear probing: In linear probing, when a collision occurs, the algorithm searches for the next available slot in the hash table by probing the slots one by one until it finds an empty slot. The slots are probed in a linear sequence, which means that the algorithm checks the next slot after the current slot until it finds an empty slot. This technique is easy to implement and can have good cache performance, but it can suffer from clustering, where items tend to cluster together in certain parts of the table.
 
-### 1.2 Double hashing: In double hashing, when a collision occurs, the algorithm uses a secondary hash function to calculate an offset value that is added to the original hash index to find the next available slot. The offset value is calculated using a different hash function than the primary hash function, which helps to reduce clustering and improve performance. However, finding a good secondary hash function can be difficult, and the technique can still suffer from clustering if the hash functions are poorly chosen.
+### 1.2 Double hashing: 
+In double hashing, when a collision occurs, the algorithm uses a secondary hash function to calculate an offset value that is added to the original hash index to find the next available slot. The offset value is calculated using a different hash function than the primary hash function, which helps to reduce clustering and improve performance. However, finding a good secondary hash function can be difficult, and the technique can still suffer from clustering if the hash functions are poorly chosen.
 
-### Chaining Chaining is another technique for resolving collisions in hash tables. In chaining, instead of storing items directly in the hash table, we use a linked list to store all the items that hash to the same index. When a collision occurs, the algorithm simply adds the new item to the end of the linked list at the appropriate index.
+### Chaining 
+Chaining is another technique for resolving collisions in hash tables. In chaining, instead of storing items directly in the hash table, we use a linked list to store all the items that hash to the same index. When a collision occurs, the algorithm simply adds the new item to the end of the linked list at the appropriate index.
 
 # Memoization + recursion:
 
-### Memoisation: is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+### 
+Memoisation: is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
 
-### Recursion: in data structure is when a function calls itself indirectly or directly, and the function calling itself is known as a recursive function. It's generally used when the answer to a larger issue could be depicted in terms of smaller problems.
+###
+Recursion: in data structure is when a function calls itself indirectly or directly, and the function calling itself is known as a recursive function. It's generally used when the answer to a larger issue could be depicted in terms of smaller problems.
