@@ -23,3 +23,46 @@ Memoisation: is an optimization technique used primarily to speed up computer pr
 
 ###
 Recursion: in data structure is when a function calls itself indirectly or directly, and the function calling itself is known as a recursive function. It's generally used when the answer to a larger issue could be depicted in terms of smaller problems.
+
+# Sliding Window:
+
+### Sliding Window Algorithm is a technique for reducing the complexity of algorithms. It is used such that the need for reusing the loops gets reduced and hence the program gets optimized. In this technique, we reuse the result of the previous step to compute the result of the next step.
+
+
+
+# Basic Steps to Solve Sliding Window Problems:
+### Find the size of the window on which the algorithm has to be performed.
+### Calculate the result of the first window, as we calculate in the naive approach.
+### Maintain a pointer on the start position.
+### Then run a loop and keep sliding the window by one step at a time and also sliding that pointer one at a time, and keep track of the results of every window.
+
+
+
+ 
+### Example:
+
+int findMaximumSum(int arr[], int n, int m)
+{
+	int max_result = INT_MIN;
+
+	for (int i = 0; i <= n - m ; i++) {
+		int running_sum = 0;
+        for (int j = i; j < i+m && j < n; j++)
+            running_sum = running_sum + arr[j];
+            
+		// Update the max_result variable.
+		max_result = max(running_sum, max_result);
+	}
+
+	return max_result;
+}
+
+int main()
+{
+    int n = 5;
+	int arr[n] = { 10, 20, 10, 30, 5 };
+	int m = 3;
+    int answer = findMaximumSum(arr, n, m);
+    cout<<answer;
+	return 0;
+}
