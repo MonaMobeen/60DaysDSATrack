@@ -2,6 +2,7 @@
 
 class MyHashTable0 {
     private:
+    
         int size;
         std::string* keys;
         std::string* values;
