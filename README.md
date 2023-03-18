@@ -1,6 +1,6 @@
 # 60DaysDSATrack
 A repo having DSA PROB SOLVING Challenges  
-- # The Lucky 13: Essential LeetCode Easy Problems Every Developer Should Solve:
+- # The Lucky 13: Essential LeetCode Problems:
  
 1. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
