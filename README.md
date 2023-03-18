@@ -1,5 +1,5 @@
 # 60DaysDSATrack
-A repo having DSA PROB SOLVING Challenges  
+ Here are a few informative practice problems that can aid you in comprehending the concept more effectively. 
 - # The Lucky 13: Essential LeetCode Problems:
  
 1. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
