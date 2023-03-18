@@ -1,33 +1,32 @@
 # 60DaysDSATrack
-A repo having DSA PROB SOLVING Challenges in upcoming 60 Days!
-Problem Solving in dsa
-- # Problems:
+A repo having DSA PROB SOLVING Challenges  
+- # The Lucky 13: Essential LeetCode Easy Problems Every Developer Should Solve:
  
-[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+1. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
-[Intersection of Two Arrays II](https://leetcode.com/submissions/detail/916673864/)
+2. [Intersection of Two Arrays II](https://leetcode.com/submissions/detail/916673864/)
 
-[Best Time to Buy and Sell Stock](https://leetcode.com/submissions/detail/916673578/)
+3. [Best Time to Buy and Sell Stock](https://leetcode.com/submissions/detail/916673578/)
 
-[First Bad Version](https://leetcode.com/submissions/detail/915669147/)
+4. [First Bad Version](https://leetcode.com/submissions/detail/915669147/)
 
-[Isomorphic Strings](https://leetcode.com/submissions/detail/916216154/) 
+5. [Isomorphic Strings](https://leetcode.com/submissions/detail/916216154/) 
 
-[Two Sum](https://leetcode.com/submissions/detail/916217157/)
+6. [Two Sum](https://leetcode.com/submissions/detail/916217157/)
 
-[Squares of a Sorted Array](https://leetcode.com/submissions/detail/916672517/)
+7. [Squares of a Sorted Array](https://leetcode.com/submissions/detail/916672517/)
 
-[Merge Two Sorted Lists](https://leetcode.com/submissions/detail/916672180/)
+8. [Merge Two Sorted Lists](https://leetcode.com/submissions/detail/916672180/)
 
-[Is Subsequence](https://leetcode.com/submissions/detail/916216639/)
+9. [Is Subsequence](https://leetcode.com/submissions/detail/916216639/)
 
-[Two Sum II - Input Array Is Sorted](https://leetcode.com/submissions/detail/916673386/)
+10. [Two Sum II - Input Array Is Sorted](https://leetcode.com/submissions/detail/916673386/)
 
-[Rotate Array](https://leetcode.com/submissions/detail/916672820/)
+11. [Rotate Array](https://leetcode.com/submissions/detail/916672820/)
 
-[Reverse Linked List](https://leetcode.com/submissions/detail/916672260/)
+12. [Reverse Linked List](https://leetcode.com/submissions/detail/916672260/)
 
-[Search Insert Position](https://leetcode.com/submissions/detail/915672113/)
+13. [Search Insert Position](https://leetcode.com/submissions/detail/915672113/)
 
 
 # Memoization:
