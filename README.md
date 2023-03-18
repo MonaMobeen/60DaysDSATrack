@@ -30,14 +30,10 @@ Problem Solving in dsa
 [Search Insert Position](https://leetcode.com/submissions/detail/915672113/)
 
 
-# Memoization + recursion:
-
-### 
+# Memoization:
+ 
 Memoisation: is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
-
-###
-Recursion: in data structure is when a function calls itself indirectly or directly, and the function calling itself is known as a recursive function. It's generally used when the answer to a larger issue could be depicted in terms of smaller problems.
-
+  
 # Sliding Window:
 
   Sliding Window Algorithm is a technique for reducing the complexity of algorithms. It is used such that the need for reusing the loops gets reduced and hence the program gets optimized. In this technique, we reuse the result of the previous step to compute the result of the next step.
